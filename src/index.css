@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#myChart {
+    height: 250px !important;
+    width: 100%; /* Ensuring it takes full width */
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    #myChart {
+        height: 350px !important;
+        width: 100%; /* Ensuring it takes full width */
+    } 
+}
+@media only screen and (min-width: 769px) and (max-width: 1440px) {
+    #myChart {
+        height: 500px !important;
+        width: 100%; /* Ensuring it takes full width */
+    } 
+}
